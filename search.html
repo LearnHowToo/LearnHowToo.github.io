@@ -75,18 +75,26 @@
             const article = document.createElement('div');
             article.classList.add('article');
 
+            // Create and append image element
+            const image = document.createElement('img');
+            image.src = item.image; // Assuming "image" is the key for the image URL
+            image.alt = item.name; // Use article name as alt text
+            article.appendChild(image);
+
+            // Create and append title element
             const title = document.createElement('h3');
             const titleLink = document.createElement('a');
             titleLink.textContent = item.name; // Use "name" key
             titleLink.href = item.url;
             title.appendChild(titleLink);
+            article.appendChild(title);
 
+            // Create and append description element
             const description = document.createElement('p');
             description.textContent = item.description;
-
-            article.appendChild(title);
             article.appendChild(description);
 
+            // Append the article to the search results container
             searchResultsContainer.appendChild(article);
         });
     }
