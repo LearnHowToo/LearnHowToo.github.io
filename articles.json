@@ -1,24 +1,20 @@
-{
-    "articles": [
-      {
+[
+    {
         "name": "Article 1",
-        "description": "Description of article 1. This is a multiline description. It can contain multiple lines of text to provide detailed information about the article.",
+        "url": "article1.html",
         "image": "https://via.placeholder.com/150",
-        "url": "article1.html"
-      },
-      {
+        "description": "Description of Article 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
         "name": "Article 2",
-        "description": "Description of article 2. Another example of a multiline description.",
+        "url": "article2.html",
         "image": "https://via.placeholder.com/150",
-        "url": "article2.html"
-      },
-      {
+        "description": "Description of Article 2. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
         "name": "Article 3",
-        "description": "Description of article 3. Yet another multiline description.",
+        "url": "article3.html",
         "image": "https://via.placeholder.com/150",
-        "url": "article3.html"
-      }
-    ]
-  }
-  
-  
+        "description": "Description of Article 3. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    }
+]
